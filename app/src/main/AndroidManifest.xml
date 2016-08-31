@@ -61,12 +61,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.ttcbeuren.ttcbeurenhauptapp.MainActivityStartseite" />
         </activity>
-        <!--App.Compat muss als Theme intigriert sein wegen ActionBarActivity(Design noch anpassen)-->
+        <!--App.Compat muss als Theme intigriert sein wegen ActionBarActivity(Design noch anpassen)
+        und portrait Modus für saveInstance Vermeidung-->
         <activity
             android:name=".ImSpielActivity"
             android:label="@string/title_activity_im_spiel"
             android:theme="@style/Theme.AppCompat"
-            android:parentActivityName=".MainActivityStartseite" >
+            android:parentActivityName=".MainActivityStartseite"
+
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.ttcbeuren.ttcbeurenhauptapp.MainActivityStartseite" />
