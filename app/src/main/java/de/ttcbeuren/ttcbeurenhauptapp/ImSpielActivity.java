@@ -177,8 +177,7 @@ public class ImSpielActivity extends ActionBarActivity implements
 					notifyFragment.show(getFragmentManager(), "notify");
 
 				}
-/*#
-* Das soll ein Test sein*/
+
 
 			}
 		});
