@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="ptext_anzahlGegner">1,2,3,4,5,6,7,8,9,10</string>
+    <string name="ptext_unter21">Sie sind jünger als 21</string>
+    <string name="ptext_unter16">Sie sind jünger als 16</string>
+    <string name="ptext_unter1jahrkein">1 Jahr kein Spiel</string>
+    <string name="ptext_wenigerals30">Bewertete Spiele &lt; 30 </string>
+    <string name="ptext_nachwuchsausgleich">Nachwuchsausgleich</string>
+    <string name="ptext_erklaerungAenderungskonstantesumm">Die Änderungskonstante gibt an, wieviel Punkte Sie maximal gewinnen beziehungsweise verlieren können. Dabei gibt es gewisse Faktoren, die diese beeinflussen. Dies hat den Vorteil dass z.B. jüngere und inaktive Spieler schneller Punkte ansammeln können.</string>
+    <string name="ptext_erklaerungAenderungskonstante">Erklärung</string>
+    <string name="ptext_allgemein">Allgemein</string>
+    <string name="ptext_aenderkonstante">Änderungskonstante</string>
+
+    <string-array name="ZahlDerGegner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="pref_text_AnzahlDerGegner">Anzahl der Gegner</string>
+    <!-- Bitte noch anpassen beziehungsweise immer  anpassen -->
+    <string-array name="PreferencesKeys">
+        <item>unter16key345</item>
+        <item>unter21key989</item>
+        <item>unter1jahrkeykdlod</item>
+        <item>wenigerals30keydkdf</item>
+        <item>nachwuchsausgleichkey489</item>
+        <item>anzahldsafdwrhtsfjgsr6663</item>
+    </string-array>
+
+    <string name="preference_ptext_unter16_key">unter16key345</string>
+    <string name="preference_ptext_unter21_key">unter21key989</string>
+    <string name="preference_ptext_unter1jahrkein_key">unter1jahrkeykdlod</string>
+    <string name="preference_ptext_wenigerals30_key">wenigerals30keydkdf</string>
+    <string name="preference_ptext_nachwuchsausgleich_key">nachwuchsausgleichkey489</string>
+    <string name="preference_plist_anzahlgegner_key">anzahldsafdwrhtsfjgsr6663</string>
+
+</resources>

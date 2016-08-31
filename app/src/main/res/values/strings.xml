@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TTC Beuren</string>
+    <string name="title_aktuelles">Aktuelles</string>
+    <string name="title_ergebnisse">Ergebnisse</string>
+    <string name="title_ttrrechner">TTR Rechner</string>
+    <string name="title_interneRangliste">Interne Rangliste</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="text_eigenerTTR">Eigener TTR</string>
+    <string name="text_gegner1TTR">Gegner 1 TTR</string>
+    <string name="text_gegner2TTR">Gegner 2 TTR</string>
+    <string name="text_gegner3TTR">Gegner 3 TTR</string>
+    <string name="text_gegner4TTR">Gegner 4 TTR</string>
+    <string name="text_gegner5TTR">Gegner 5 TTR</string>
+    <string name="text_gegner6TTR">Gegner 6 TTR</string>
+    <string name="text_gegner7TTR">Gegner 7 TTR</string>
+    <string name="text_gegner8TTR">Gegner 8 TTR</string>
+    <string name="text_gegner9TTR">Gegner 9 TTR</string>
+    <string name="text_gegner10TTR">Gegner 10 TTR</string>
+    <string name="text_berechnen">Berechnen</string>
+    <string name="menu_einstellungenttr">Einstellungen</string>
+    <string name="text_sieg">Sieg</string>
+    <string name="title_activity_Einstellungenttr">Einstellungen</string>
+    <string name="text_account">Account</string>
+    <string name="text_logout">Logout</string>
+    <string name="text_Accountloeschen">Account löschen</string>
+    <string name="text_passwordaendern">Passwort ändern</string>
+    <string name="text_sindsiesicher">Sind sie sicher ?</string>
+    <string name="txt_ja">Ja</string>
+    <string name="text_nein">Nein</string>
+    <string name="title_activity_register">Registrieren</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_registrieren">Registrieren</string>
+    <string name="prompt_password_confirm">Passwort bestätigen</string>
+    <string name="text_vorname">Vorname</string>
+    <string name="text_nachname">Nachname</string>
+    <string name="text_registrierungscode">Registrierungscode</string>
+    <string name="text_nochkeinMitglied">Noch nicht registriert ? Hier registrieren</string>
+    <string name="error_invalid_name">Ungültiger Name</string>
+    <string name="error_invalid_vorname">Ungültiger Vorname</string>
+    <string name="error_invalid_password_confirm">Passwörter stimmen nicht überein</string>
+    <string name="error_field_registercode">Registercode ist falsch</string>
+    <string name="text_erstellen">Erstellen</string>
+    <string name="text_spielerstellen">Spiel</string>
+    <string name="text_neuerNewsfeed">Newsfeed</string>
+    <string name="text_Live">Live:</string>
+    <string name="text_beendet">Beendet:</string>
+    <string name="title_activity_detail">Details des Spiels</string>
+    <string name="title_activity_im_spiel">Im Spiel</string>
+    <string name="title_activity_activitypopup">Popup</string>
+    <string name="text_zudetailsdesSpiel">Details des Spieles</string>
+    <string name="text_zuImSpiel">Zum Spiel</string>
+    <string name="title_activity_pw_change">Passwort ändern</string>
+
+</resources>

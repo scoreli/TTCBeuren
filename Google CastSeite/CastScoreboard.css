@@ -1,0 +1,57 @@
+html {
+    background-color: aqua;
+    
+}
+
+body {
+    margin: 1 auto;
+    padding: 1em 4em 4em 4em;
+    max-width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+
+
+table{
+    margin: 0 auto;
+    width:100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.mannschaften{
+    font-size: 3vw;
+}
+.spielstand{
+    font-size: 12vw;
+}
+#status{
+    font-size: 4vw;
+    text-align: center;
+    width:auto;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 2);
+}

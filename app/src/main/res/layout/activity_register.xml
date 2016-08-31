@@ -1,0 +1,106 @@
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.ttcbeuren.ttcbeurenhauptapp.loginregister.RegisterActivity" >
+
+     <ProgressBar
+        android:id="@+id/register_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/register_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/txf_vorname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/text_vorname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txf_nachname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/text_nachname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/passwordregister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/passwordregisterueberpruefen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/prompt_password_confirm"
+                android:inputType="textPassword" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/txf_registrierungscode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/text_registrierungscode" />
+
+            <Button
+                android:id="@+id/btn_registrieren"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/button_registrieren"
+                android:textStyle="bold" 
+                android:drawableStart="@drawable/ic_launcher"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:drawableRight="@drawable/ic_launcher"
+                android:drawableEnd="@drawable/ic_launcher"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

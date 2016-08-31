@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--  -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+<PreferenceCategory 
+        android:title="@string/ptext_allgemein"
+       >
+
+    <ListPreference
+        android:defaultValue="3"
+        android:entries="@array/ZahlDerGegner"
+        android:entryValues="@array/ZahlDerGegner"
+        android:summary="@string/ptext_anzahlGegner"
+        android:key="@string/preference_plist_anzahlgegner_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_text_AnzahlDerGegner" />
+       </PreferenceCategory>
+    
+<PreferenceCategory 
+        android:title="@string/ptext_aenderkonstante"
+       >    
+<EditTextPreference 
+     android:title="@string/ptext_erklaerungAenderungskonstante"
+        android:summary="@string/ptext_erklaerungAenderungskonstantesumm"
+        android:selectable="false"
+    />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/preference_ptext_unter16_key"
+        android:summary="Sind sie jünger als 16 ? Änderungskonstante +4"
+        android:title="@string/ptext_unter16" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/preference_ptext_unter21_key"
+        android:summary="Sind Sie jünger als 21 ? Änderungskonstante +4"
+        android:title="@string/ptext_unter21" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/preference_ptext_unter1jahrkein_key"
+        android:summary="Änderungskonstante +4"
+        android:title="@string/ptext_unter1jahrkein" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/preference_ptext_wenigerals30_key"
+        android:summary="Haben Sie weniger als 30 bewertete Spiele ? Änderungskonstante +4"
+        android:title="@string/ptext_wenigerals30" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/preference_ptext_nachwuchsausgleich_key"
+        android:summary="Bekommen Sie einen Nachwuchsausgleich ? Änderungskonstante +2"
+        android:title="@string/ptext_nachwuchsausgleich" />
+ </PreferenceCategory>
+ 
+
+</PreferenceScreen>

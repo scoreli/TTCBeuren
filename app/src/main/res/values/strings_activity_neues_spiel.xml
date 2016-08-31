@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_beurenistheimmannschaft">Beuren ist Heimmannschaft</string>
+    <string name="title_activity_neues_spiel">Spiel Erstellen</string>
+    <string name="text_Mannschaftsart">Mannschaftsart:</string>
+    <string name="text_beuren">Beuren Mannschaftsnummer:</string>
+    <string name="text_Gegner">Gegnerverein:</string>
+    <string name="text_gegnerNummer">Gegnermannschaftsnummer:</string>
+    <string name="text_GegnerlisteAktualisieren">Gegnerlisteaktualisieren</string>
+    <string name="text_Beginn">Beginn:</string>
+    <string name="text_spielstand">Spielstand:</string>
+    <string name="text_Spielsystem">Spielsystem:</string>
+    <string name="text_beurenneuesSpiel">:Beuren</string>
+    <string name="text_gegner">Gegner:</string>
+    <string name="text_spieldatum">Spieldatum:</string>
+    <string name="text_Status">Status:</string>
+    <string name="text_SpielIstEntschieden">Spiel ist entschieden</string>
+    <string name="text_Spielende">Spielende:</string>
+
+</resources>

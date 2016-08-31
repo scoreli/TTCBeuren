@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ttrrechner_fragment_relativ"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/etxt_ttra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="@string/text_eigenerTTR"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etxt_ttrb0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttra"
+            android:ems="10"
+            android:hint="@string/text_gegner1TTR"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etxt_ttrb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/etxt_ttrb0"
+            android:layout_below="@+id/etxt_ttrb0"
+            android:hint="@string/text_gegner2TTR"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etxt_ttrb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb1"
+            android:ems="10"
+            android:hint="@string/text_gegner3TTR"
+            android:inputType="number" />
+
+        <CheckBox
+            android:id="@+id/box_siegb0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etxt_ttrb0"
+            android:layout_alignBottom="@+id/etxt_ttrb0"
+            android:layout_toRightOf="@+id/etxt_ttrb0"
+            android:text="@string/text_sieg" />
+
+        <CheckBox
+            android:id="@+id/box_siegb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etxt_ttrb1"
+            android:layout_alignBottom="@+id/etxt_ttrb1"
+            android:layout_alignLeft="@+id/box_siegb0"
+            android:text="@string/text_sieg" />
+
+        <CheckBox
+            android:id="@+id/box_siegb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb2"
+            android:layout_alignLeft="@+id/box_siegb1"
+            android:text="@string/text_sieg" />
+
+        <EditText
+            android:id="@+id/etxt_ttrb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etxt_ttrb2"
+            android:layout_toLeftOf="@+id/box_siegb2"
+            android:ems="10"
+            android:hint="@string/text_gegner4TTR"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etxt_ttrb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb3"
+            android:ems="10"
+            android:hint="@string/text_gegner5TTR"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etxt_ttrb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb4"
+            android:ems="10"
+            android:hint="@string/text_gegner6TTR"
+            android:inputType="number" />
+<EditText
+            android:id="@+id/etxt_ttrb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb5"
+            android:ems="10"
+            android:hint="@string/text_gegner7TTR"
+            android:inputType="number" />
+<EditText
+            android:id="@+id/etxt_ttrb7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb6"
+            android:ems="10"
+            android:hint="@string/text_gegner8TTR"
+            android:inputType="number" />
+<EditText
+            android:id="@+id/etxt_ttrb8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb7"
+            android:ems="10"
+            android:hint="@string/text_gegner9TTR"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/etxt_ttrb9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb8"
+            android:ems="10"
+            android:hint="@string/text_gegner10TTR"
+            android:inputType="number" />
+
+        <CheckBox
+            android:id="@+id/box_siegb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/etxt_ttrb3"
+            android:layout_alignBottom="@+id/etxt_ttrb3"
+            android:layout_toRightOf="@+id/etxt_ttrb3"
+            android:text="@string/text_sieg" />
+
+        <CheckBox
+            android:id="@+id/box_siegb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb4"
+            android:layout_toRightOf="@+id/etxt_ttrb4"
+            android:text="@string/text_sieg" />
+<CheckBox
+            android:id="@+id/box_siegb5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb5"
+            android:layout_toRightOf="@+id/etxt_ttrb5"
+            android:text="@string/text_sieg" />
+<CheckBox
+            android:id="@+id/box_siegb6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb6"
+            android:layout_toRightOf="@+id/etxt_ttrb6"
+            android:text="@string/text_sieg" />
+<CheckBox
+            android:id="@+id/box_siegb7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb7"
+            android:layout_toRightOf="@+id/etxt_ttrb7"
+            android:text="@string/text_sieg" />
+<CheckBox
+            android:id="@+id/box_siegb8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb8"
+            android:layout_toRightOf="@+id/etxt_ttrb8"
+            android:text="@string/text_sieg" />
+<CheckBox
+            android:id="@+id/box_siegb9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etxt_ttrb9"
+            android:layout_toRightOf="@+id/etxt_ttrb9"
+            android:text="@string/text_sieg" />
+        <Button
+            android:id="@+id/btn_berechnen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/etxt_ttrb9"
+            android:text="@string/text_berechnen" />
+    </RelativeLayout>
+
+</ScrollView>

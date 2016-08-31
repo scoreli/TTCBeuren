@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="text_altespasswort">Altes Passwort</string>
+<string name="text_NeuesPW">Neues Passwort</string>
+<string name="text_change">Ändern</string>
+    
+</resources>

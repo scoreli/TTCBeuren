@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.ttcbeuren.ttcbeurenhauptapp"
+     >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- android name muss sonst schmeist appcontroller eine exeption -->
+    <application
+        android:name=".internet.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivityStartseite"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ttrrechner.EinstellungsttrActivity"
+            android:label="@string/title_activity_Einstellungenttr" >
+        </activity>
+        <activity
+            android:name=".loginregister.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivityStartseite"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.ttcbeuren.ttcbeurenhauptapp.MainActivityStartseite" />
+        </activity>
+        <activity
+            android:name=".loginregister.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".loginregister.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.ttcbeuren.ttcbeurenhauptapp.loginregister.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".NeuesSpielActivity"
+            android:label="@string/title_activity_neues_spiel"
+            android:parentActivityName=".MainActivityStartseite" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.ttcbeuren.ttcbeurenhauptapp.MainActivityStartseite" />
+        </activity>
+        <activity
+            android:name=".detailspiel.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName=".MainActivityStartseite" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.ttcbeuren.ttcbeurenhauptapp.MainActivityStartseite" />
+        </activity>
+        <!--App.Compat muss als Theme intigriert sein wegen ActionBarActivity(Design noch anpassen)-->
+        <activity
+            android:name=".ImSpielActivity"
+            android:label="@string/title_activity_im_spiel"
+            android:theme="@style/Theme.AppCompat"
+            android:parentActivityName=".MainActivityStartseite" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.ttcbeuren.ttcbeurenhauptapp.MainActivityStartseite" />
+        </activity>
+        <activity
+            android:name="de.ttcbeuren.ttcbeurenhauptapp.loginregister.PwChangeActivity"
+            android:label="@string/title_activity_pw_change"
+            android:parentActivityName=".loginregister.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.ttcbeuren.ttcbeurenhauptapp.loginregister.LoginActivity" />
+        </activity>
+    </application>
+
+</manifest>

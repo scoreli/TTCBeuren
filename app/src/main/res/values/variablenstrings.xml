@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mannschaftsnummer_1">I</string>
+    <string name="mannschaftsnummer_2">II</string>
+    <string name="mannschaftsnummer_3">III</string>
+    <string name="mannschaftsnummer_4">IV</string>
+    <string name="mannschaftsnummer_5">V</string>
+    <string name="mannschaftsnummer_6">VI</string>
+    <string name="mannschaftsart_herren">Herren</string>
+    <string name="mannschaftsart_damen">Damen</string>
+    <string name="mannschaftsart_jugend">Jugend U18</string>
+    <string name="mannschaftsart_senioren">Senioren</string>
+
+    <string-array name="Vereine_gegnervonBeuren">
+        <item>BSG Duravit Hornberg</item>
+        <item>DJK Donaueschingen</item>
+        <item>DJK Villingen</item>
+        <item>RSV Neuhausen</item>
+        <item>RV Bittelbrunn</item>
+        <item>RV Erdmannsweiler</item>
+        <item>SC Konstanz-Wollmatingen</item>
+        <item>SPVGG. F.A.L. Frickingen</item>
+        <item>SV Allensbach </item>
+        <item>SV Bohlingen 1949 e.V.</item>
+        <item>SV Litzelstetten</item>
+        <item>TSV Aach-Linz</item>
+        <item>TSV Dettingen-Wallhausen</item>
+        <item>TSV Mimmenhausen</item>
+        <item>TSV Mühlhofen</item>
+        <item>TTC Beuren a.d. Aach</item>
+        <item>TTC Blumberg</item>
+        <item>TTC Bonndorf</item>
+        <item>TTC Bräunlingen</item>
+        <item>TTC Engen-Aach</item>
+        <item>TTC GW Konstanz</item>
+        <item>TTC Löffingen</item>
+        <item>TTC Mühlhausen</item>
+        <item>TTC Nussbach</item>
+        <item>TTC Riedböhringen</item>
+        <item>TTC Riedöschingen</item>
+        <item>TTC Roggenbeuren</item>
+        <item>TTC Schluchsee</item>
+        <item>TTC Schonach</item>
+        <item>TTC Singen</item>
+        <item>TTC Stockach-Zizenhausen</item>
+        <item>TTC Tannheim</item>
+        <item>TTC Unterkirnach</item>
+        <item>TTC Villingen</item>
+        <item>TTC Vöhrenbach</item>
+        <item>TTF Stühlingen</item>
+        <item>TTG Furtwangen/Schönenbach</item>
+        <item>TTG Lenzkirch-Kappel</item>
+        <item>TTG Marbach-Rietheim</item>
+        <item>TTG Stühlingen-Weizen</item>
+        <item>TTS Gottmadingen</item>
+        <item>TTSV Mönchweiler</item>
+        <item>TTV Anselfingen</item>
+        <item>TTV Möhringen</item>
+        <item>TTV Radolfzell</item>
+        <item>TUS Hüfingen</item>
+        <item>TUS Immenstaad</item>
+        <item>TUS Stetten</item>
+        <item>TV Gaienhofen</item>
+        <item>TV Grüningen</item>
+        <item>TV Jestetten</item>
+        <item>TV Neustadt</item>
+        <item>TV Schönwald</item>
+        <item>TV St.Georgen</item>
+        <item>TV Sunthausen</item>
+        <item>TV Überlingen</item>
+        <item>TV Wahlwies</item>
+    </string-array>
+    <string-array name="Mannschaftsarten">
+        <item>Herren</item>
+        <item>Damen</item>
+        <item>Jugend U18</item>
+        <item>Senioren</item>
+
+    </string-array>
+     <string-array name="Mannschaftsartenduenn">
+        <item>Alle Spiele</item>
+        <item>Herren</item>
+        <item>Damen</item>
+        <item>Jugend U18</item>
+        <item>Senioren</item>
+        
+    </string-array>
+    <!--Bitte immer eine Zahl und dann ein Leerzeichen folgen lassen.
+    Das hat den Grund, weil sonst nicht korrekt ein Integer aus dem String extrahiert werden kann.
+    Dies erfolgt in der ImSpielActivity Activity-->
+    <string-array name="Spielsysteme">
+        <item>4 Gewinnpunkte</item>
+        <item>6 Gewinnpunkte</item>
+        <item>8 Gewinnpunkte</item>
+        <item>9 Gewinnpunkte</item>
+    </string-array>
+    <string-array name="BeurenMannschaftsnummer">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+    </string-array>
+    <string-array name="GegnerMannschaftsnummer">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+    </string-array>
+    <string-array name="MannschaftenAuswahl">
+        <item>Alle Spiele</item>
+        <item>1.Herren</item>
+        <item>2.Herren</item>
+        <item>3.Herren</item>
+        <item>4.Herren</item>
+        <item>1.Damen</item>
+        <item>1.Jugend</item>
+        <item>2.Jugend</item>
+        <item>3.Jugend</item>
+        <item>4.Jugend</item>
+        <item>5.Jugend</item>
+        <item>6.Jugend</item>
+    </string-array>
+
+</resources>

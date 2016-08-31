@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_Spielstand"
+            android:id="@+id/txvSpielstandAktualisiereSpiel"
+            android:layout_gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_gast_kurz"
+                android:id="@+id/textView8"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/np_Gast"
+                android:layout_alignEnd="@+id/np_Gast"
+                android:gravity="center"
+                android:layout_alignLeft="@+id/np_Gast"
+                android:layout_alignStart="@+id/np_Gast" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/text_heim_kurz"
+                android:id="@+id/textView"
+                android:layout_above="@+id/np_Gast"
+                android:layout_alignRight="@+id/np_Heim"
+                android:layout_alignEnd="@+id/np_Heim"
+                android:layout_alignLeft="@+id/np_Heim"
+                android:layout_alignStart="@+id/np_Heim"
+                android:gravity="center"
+               />
+
+            <NumberPicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/np_Heim"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:layout_below="@+id/textView"
+                 />
+
+            <NumberPicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/np_Gast"
+                android:longClickable="false"
+                android:gravity="fill_horizontal|left"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:nestedScrollingEnabled="true"
+                android:clickable="false" />
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txfAktualisiereStatus"
+            android:hint="@string/text_Status"
+            android:gravity="center" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/text_SpielIstEntschieden"
+            android:id="@+id/check_Spielistentschieden"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_spielende_ohnedoppel"
+            android:id="@+id/textView_Spielentschieden"
+            android:layout_gravity="center_horizontal" />
+
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/time_Spielende" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_refresh"
+            android:id="@+id/btnaktualisieren" />
+
+        <Button
+            android:id="@+id/btnloeschen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_loeschen"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/btn_zurueck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_zurueck"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
