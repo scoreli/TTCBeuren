@@ -13,63 +13,224 @@
     <string name="mannschaftsart_senioren">Senioren</string>
 
     <string-array name="Vereine_gegnervonBeuren">
+        <item>AV GER.Freib.-St.Georgen</item>
         <item>BSG Duravit Hornberg</item>
         <item>DJK Donaueschingen</item>
+        <item>DJK Heuweiler</item>
+        <item>DJK Oberharmersbach</item>
+        <item>DJK Oberschopfheim</item>
+        <item>DJK Offenburg</item>
         <item>DJK Villingen</item>
-        <item>RSV Neuhausen</item>
-        <item>RV Bittelbrunn</item>
-        <item>RV Erdmannsweiler</item>
-        <item>SC Konstanz-Wollmatingen</item>
-        <item>SPVGG. F.A.L. Frickingen</item>
-        <item>SV Allensbach </item>
-        <item>SV Bohlingen 1949 e.V.</item>
-        <item>SV Litzelstetten</item>
-        <item>TSV Aach-Linz</item>
-        <item>TSV Dettingen-Wallhausen</item>
-        <item>TSV Mimmenhausen</item>
-        <item>TSV Mühlhofen</item>
-        <item>TTC Beuren a.d. Aach</item>
-        <item>TTC Blumberg</item>
-        <item>TTC Bonndorf</item>
-        <item>TTC Bräunlingen</item>
-        <item>TTC Engen-Aach</item>
-        <item>TTC GW Konstanz</item>
-        <item>TTC Löffingen</item>
-        <item>TTC Mühlhausen</item>
-        <item>TTC Nussbach</item>
-        <item>TTC Riedböhringen</item>
-        <item>TTC Riedöschingen</item>
-        <item>TTC Roggenbeuren</item>
-        <item>TTC Schluchsee</item>
-        <item>TTC Schonach</item>
-        <item>TTC Singen</item>
-        <item>TTC Stockach-Zizenhausen</item>
-        <item>TTC Tannheim</item>
-        <item>TTC Unterkirnach</item>
-        <item>TTC Villingen</item>
-        <item>TTC Vöhrenbach</item>
-        <item>TTF Stühlingen</item>
-        <item>TTG Furtwangen/Schönenbach</item>
-        <item>TTG Lenzkirch-Kappel</item>
-        <item>TTG Marbach-Rietheim</item>
-        <item>TTG Stühlingen-Weizen</item>
-        <item>TTS Gottmadingen</item>
-        <item>TTSV Mönchweiler</item>
-        <item>TTV Anselfingen</item>
-        <item>TTV Möhringen</item>
-        <item>TTV Radolfzell</item>
-        <item>TUS Hüfingen</item>
-        <item>TUS Immenstaad</item>
+        <item>ESV Freiburg</item>
+        <item>ESV Weil</item>
+        <item>FC Bad Säckingen</item>
+        <item>FC Kollnau</item>
+        <item>FC Wolfach</item>
+        <item>FSC Biengen</item>
+        <item>FSV Ebringen</item>
+        <item>FT V. 1844 Freiburg</item>
+        <item>GTM Mittelbaden  	</item>
+        <item>GTM Rheinmünster  	</item>
+        <item>KT Kehl v. e.V  	</item>
+        <item>PTSV Jahn Freiburg 	</item>
+        <item>Rastatter TTC  	</item>
+        <item>RSV Neuhausen	</item>
+        <item>RV Bittelbrunn	</item>
+        <item>RV Erdmannsweiler	</item>
+        <item>SB Sonnland Freiburg  	</item>
+        <item>SC Konstanz-Wollmatingen	</item>
+        <item>SF Goldscheuer  	</item>
+        <item>SpVgg Buchenbach 	</item>
+        <item>Spvgg Ottenau  	</item>
+        <item>SPVGG Untermünstertal 	</item>
+        <item>SPVGG. Alem. Müllheim 	</item>
+        <item>SPVGG. F.A.L. Frickingen	</item>
+        <item>SSV Freiburg  	</item>
+        <item>SV Allensbach 	</item>
+        <item>SV Bad Peterstal  	</item>
+        <item>SV Bohlingen 1949 e.V.	</item>
+        <item>SV BW Murg  	</item>
+        <item>SV BW Wiehre-Freiburg	</item>
+        <item>SV Eichsel  	</item>
+        <item>SV Hochdorf  	</item>
+        <item>SV Kirchzarten 	</item>
+        <item>SV Litzelstetten	</item>
+        <item>SV Münchweier  	</item>
+        <item>SV Nollingen  	</item>
+        <item>SV Ottoschwanden  	</item>
+        <item>SV Rickenbach  	</item>
+        <item>SV Rust  	</item>
+        <item>SV St. Blasien  	</item>
+        <item>SV Waldkirch	</item>
+        <item>SV Wasenweiler 	</item>
+        <item>SV Weitenung  	</item>
+        <item>SV Wieslet  	</item>
+        <item>TB Bad Rotenfels  	</item>
+        <item>TB Gaggenau  	</item>
+        <item>TB Selbach  	</item>
+        <item>TB Sinzheim  	</item>
+        <item>TLV Simonswald 	</item>
+        <item>TSCH.Langenau  	</item>
+        <item>TSV Aach-Linz	</item>
+        <item>TSV Dettingen-Wallhausen	</item>
+        <item>TSV Kandern  	</item>
+        <item>TSV Loffenau  	</item>
+        <item>TSV Mimmenhausen	</item>
+        <item>TSV Mühlhofen	</item>
+        <item>TSV Rümmingen  	</item>
+        <item>TTC Albtal  	</item>
+        <item>TTC Altdorf  	</item>
+        <item>TTC Bad Krozingen 	</item>
+        <item>TTC Bahlingen	</item>
+        <item>TTC Berghaupten  	</item>
+        <item>TTC Beuren a.d. Aach	</item>
+        <item>TTC Blumberg	</item>
+        <item>TTC Bonndorf	</item>
+        <item>TTC Borussia Grißheim 	</item>
+        <item>TTC Bräunlingen	</item>
+        <item>TTC Durbach  	</item>
+        <item>TTC Ebersweier  	</item>
+        <item>TTC Ehrenkirchen 	</item>
+        <item>TTC Elzach 	</item>
+        <item>TTC Emmendingen 	</item>
+        <item>TTC Endingen 	</item>
+        <item>TTC Engen-Aach	</item>
+        <item>TTC Eschbach 	</item>
+        <item>TTC Ettenheim  	</item>
+        <item>TTC Fessenbach  	</item>
+        <item>TTC Forchheim 	</item>
+        <item>TTC Freiburg e.V. 	</item>
+        <item>TTC Friesenheim  	</item>
+        <item>TTC Gengenbach  	</item>
+        <item>TTC Glottertal 	</item>
+        <item>TTC Grenzach-Wyhlen  	</item>
+        <item>TTC GW Konstanz	</item>
+        <item>TTC Haagen  	</item>
+        <item>TTC Hasel  	</item>
+        <item>TTC Haslach  	</item>
+        <item>TTC Heimbach 	</item>
+        <item>TTC Iffezheim  	</item>
+        <item>TTC Ihringen  	</item>
+        <item>TTC Karsau  	</item>
+        <item>TTC Köndringen  	</item>
+        <item>TTC Langenwinkel  	</item>
+        <item>TTC Langhurst  	</item>
+        <item>TTC Lauchringen  	</item>
+        <item>TTC Laufenburg  	</item>
+        <item>TTC Löffingen	</item>
+        <item>TTC Lörrach  	</item>
+        <item>TTC Muggensturm  	</item>
+        <item>TTC Mühlhausen	</item>
+        <item>TTC Nimburg 	</item>
+        <item>TTC Nonnenweier  	</item>
+        <item>TTC Nussbach	</item>
+        <item>TTC Oberkirch-Haslach  	</item>
+        <item>TTC Orschweier  	</item>
+        <item>TTC Rauental  	</item>
+        <item>TTC Renchen  	</item>
+        <item>TTC Reute  	</item>
+        <item>TTC Riedböhringen	</item>
+        <item>TTC Riedöschingen	</item>
+        <item>TTC Ringsheim  	</item>
+        <item>TTC Roggenbeuren	</item>
+        <item>TTC Schiltach  	</item>
+        <item>TTC Schluchsee	</item>
+        <item>TTC Schonach	</item>
+        <item>TTC Schopfheim/Fahrnau  	</item>
+        <item>TTC Schutterwald  	</item>
+        <item>TTC Seelbach-Schuttertal  	</item>
+        <item>TTC Singen	</item>
+        <item>TTC Staufen	</item>
+        <item>TTC Steinach  	</item>
+        <item>TTC Stockach-Zizenhausen	</item>
+        <item>TTC Suggental	</item>
+        <item>TTC Tannheim	</item>
+        <item>TTC Tiengen-Horheim  	</item>
+        <item>TTC Unterkirnach	</item>
+        <item>TTC Villingen	</item>
+        <item>TTC Vöhrenbach	</item>
+        <item>TTC Wehr  	</item>
+        <item>TTC Weisweil 	</item>
+        <item>TTC Willstätt  	</item>
+        <item>TTC Wittenweier  	</item>
+        <item>TTC Wyhl 	</item>
+        <item>TTF Hesselhurst  	</item>
+        <item>TTF Kappel  	</item>
+        <item>TTF Oberkirch  	</item>
+        <item>TTF Rastatt  	</item>
+        <item>TTF Schwanau/Meißenheim   	</item>
+        <item>TTF Stühlingen	</item>
+        <item>TTG Achern  	</item>
+        <item>TTG Bischweier  	</item>
+        <item>TTG Furtwangen/Schönenbach	</item>
+        <item>TTG Lenzkirch-Kappel	</item>
+        <item>TTG Marbach-Rietheim	</item>
+        <item>TTG Ötigheim  	</item>
+        <item>TTG Stühlingen-Weizen	</item>
+        <item>TTG Ulm  	</item>
+        <item>TTS Gottmadingen	</item>
+        <item>TTSF Hohberg  	</item>
+        <item>TTSV Kenzingen 	</item>
+        <item>TTSV Mönchweiler	</item>
+        <item>TTV Anselfingen	</item>
+        <item>TTV Au am Rhein  	</item>
+        <item>TTV Auggen	</item>
+        <item>TTV Bühlertal  	</item>
+        <item>TTV Freiburger Betriebe 	</item>
+        <item>TTV Gamshurst  	</item>
+        <item>TTV Kappelrodeck  	</item>
+        <item>TTV March  	</item>
+        <item>TTV Möhringen	</item>
+        <item>TTV Muckenschopf  	</item>
+        <item>TTV Radolfzell	</item>
+        <item>TTV Schmieheim  	</item>
+        <item>TTV Schönau-Todtnau  	</item>
+        <item>TTV Vörstetten 	</item>
+        <item>TUS Bleichheim 	</item>
+        <item>TUS Durmersheim  	</item>
+        <item>TuS Herten  	</item>
+        <item>TUS Hüfingen	</item>
+        <item>TUS Immenstaad	</item>
+        <item>TUS Rammersweier  	</item>
+        <item>TUS Sasbachried  	</item>
         <item>TUS Stetten</item>
+        <item>TUS Teningen</item>
+        <item>TUS Windschläg</item>
+        <item>TV Bötzingen</item>
+        <item>TV Breisach</item>
+        <item>TV Britzingen</item>
+        <item>TV Brombach</item>
+        <item>TV Bühl</item>
+        <item>TV Denzlingen</item>
+        <item>TV Elgersweier</item>
+        <item>TV Freiburg St. Georgen von 1897 e. V.</item>
         <item>TV Gaienhofen</item>
+        <item>TV Gernsbach</item>
         <item>TV Grüningen</item>
+        <item>TV Hauingen</item>
+        <item>TV Heitersheim</item>
+        <item>TV Herbolzheim</item>
+        <item>TV Ihringen</item>
         <item>TV Jestetten</item>
+        <item>TV Lahr</item>
+        <item>TV Laufen</item>
+        <item>TV Lichtental</item>
+        <item>TV Merdingen</item>
         <item>TV Neustadt</item>
+        <item>TV Neuweier</item>
+        <item>TV Ortenberg</item>
+        <item>TV Pfaffenweiler</item>
         <item>TV Schönwald</item>
+        <item>TV Schwörstadt</item>
         <item>TV St.Georgen</item>
         <item>TV Sunthausen</item>
         <item>TV Überlingen</item>
+        <item>TV Unterharmersbach</item>
         <item>TV Wahlwies</item>
+        <item>TV Weisenbach</item>
+        <item>TV Wolfenweiler-Schallstadt</item>
+        <item>VFR Umkirch</item>
+
     </string-array>
     <string-array name="Mannschaftsarten">
         <item>Herren</item>
