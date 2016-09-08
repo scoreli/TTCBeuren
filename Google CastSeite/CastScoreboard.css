@@ -1,5 +1,5 @@
 html {
-    background-color: aqua;
+   /* background-color: aqua;*/
     
 }
 
@@ -10,8 +10,8 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     
-    color: #545454;
-    background-color: #ffffff;
+    color: white;
+    background-color: black;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
 }
 
@@ -44,13 +44,13 @@ table{
 }
 
 .mannschaften{
-    font-size: 3vw;
+    font-size: 4vw;
 }
 .spielstand{
-    font-size: 12vw;
+    font-size: 18vw;
 }
 #status{
-    font-size: 4vw;
+    font-size: 5vw;
     text-align: center;
     width:auto;
 
